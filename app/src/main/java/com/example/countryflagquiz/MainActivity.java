@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent openQuestionsActivity = new Intent(MainActivity.this, QuestionsActivity.class);
         startActivity(openQuestionsActivity);
     }
+
+    public void openLeaderboardActivity(View view) {
+        Intent openLeaderboardActivity = new Intent(MainActivity.this, LeaderboardActivity.class);
+        startActivity(openLeaderboardActivity);
+    }
 }
